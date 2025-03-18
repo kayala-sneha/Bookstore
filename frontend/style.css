@@ -1,0 +1,184 @@
+*
+{
+    margin:0;
+}
+.welcon{
+    background: url('book.jpeg') no-repeat center center fixed;
+    background-size:cover;
+    backdrop-filter: blur(3px);
+    margin: 0;
+    height:100vh;
+}
+.container {
+ /* Applies blur to the background image behind the container */
+    padding: 100px;;
+    border: radius 5px;;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1, h2 {
+    color: #0f0c0c;
+    margin-bottom: 6px;
+}
+
+input, button {
+    padding: 10px;
+    margin: 20px;
+    width: 90%;
+    font-size: 16px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1cba3e;
+}
+.books-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    backdrop-filter: blur(3px);
+}
+
+.book-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.book-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.book-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.actions button {
+    margin-right: 5px;
+}
+.navigation {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    max-width: fit-content; /* Keeps buttons compact */
+    margin: 0 auto; /* Centers the navigation container horizontally */
+    justify-content: center; /* Ensures buttons are spaced evenly if there's extra space */
+}
+
+.navigation button {
+    padding: 6px 20px; /* Smaller padding for compact buttons */
+    background-color: #35820f;
+    color: rgb(227, 211, 211);
+    border: none;
+    border-radius: 15px;
+    font-size: 14px; /* Smaller font size */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:"10%"
+}
+
+.navigation button:hover {
+    background-color: #0056b3;
+}
+
+.navigation button:active {
+  background-color: #003f7f;
+}
+.title{
+    width: 54px;
+}
+.center 
+{
+    /*background: rgba(255, 255, 255, 0); /* Semi-transparent white */
+    padding: 200px;
+    border-radius: 10px;
+    text-align: center;
+}
+h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    text-align: center;
+}
+
+h5 {
+    font-size: 18px;
+    color: #FFD700;
+}
+/* Sticky Navigation Bar */
+.sticky-nav {
+    position: sticky;
+    top: -20px;
+    background-color: #007BFF; /* Blue background */
+    padding: 10px 0;
+    z-index: 1000; /* Ensure it stays above other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for effect */
+    text-align: center;
+    height: 25px;
+}
+
+.sticky-nav a {
+    color: white; /* White text */
+    text-decoration: none; /* No underline */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.sticky-nav a:hover {
+    color: #FFD700; /* Gold color on hover */
+}
+.addcontainer
+{
+    background: url('add.jpeg') no-repeat center center fixed;
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    margin: 0;
+    height: 100vh;
+}
+.listcon{
+    background: url('list.jpg') no-repeat center center fixed;
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    margin: 0;
+    height: 100vh;
+}
+.upcon{
+    background: url('update.jpg') no-repeat center center fixed;
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    margin: 0;
+    height:70h;
+}
+.delcon{
+    background: url('delete.avif') no-repeat center center fixed;
+    background-size:cover;
+    backdrop-filter: blur(2px);
+    margin: 0;
+    height:100vh;
+}
